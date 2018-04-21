@@ -45,7 +45,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   # Use mysql as the database for Active Record
-  #gem 'mysql2', '>= 0.3.18', '< 0.6.0'
+  gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 end
 
 group :development do
